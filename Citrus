@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex</title>
+    <style>
+        .box {
+                background-color: lightgray;
+                border: 8px solid #333;
+                padding: 20px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                margin-left: 100px;
+                margin-right: 100px;
+        }
+    </style>
+</head>
+<body>
+    <marquee style="background-color: gray" direction="right"><b><em><small><del><ins><sub><h1>Hi</h1></sub></ins></del></small></em></b></marquee>
+    <h1>Alex's Website</h1>
+    <h2>Introduction</h2>
+    <p>Hi, my name is Alex. I'm a 7th grader in Concord middle school. </p>
+    
+    <h4>Ten rapid-fire facts about me:</h4>
+    <ul>
+        <li>I Exist</li>
+        <li>My favorite color is <a href="https://www.google.com/search?q=white" target="_blank">white</a></li>
+        <li>I have like 6 friends</li>
+        <li>I'm an extrovert</li>
+        <li>I'm not funny</li>
+        <li>I play the piano and viola</li>
+        <li>I like to draw</li>
+        <li>This is the last item in the list</li>
+        
+    </ul>
+    <q>Hiiii</q>
+    <p>In school, my favorite subject is Social studies. We're learning about Early human civilizations. </p>
+    <h2>Random stuff:</h2>
+    <button style= "background-color: rgba(255, 255, 255, 0)" onclick="alert ('You have clicked the sacred button. Now you will pay.')">
+        <i>This is a button.</i>
+    </button>
+    <marquee direction="right"><i><a href="https://www.google.com/search?q=marquee&oq=marquee&aqs=chrome..69i57j0l5j46j0.3000j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Marquee</a></i></marquee>
+    <marquee direction="left">Marquee</marquee>
+    <h4>Mountain</h4>
+    <img style="border-radius: 25%;" src="Mountain.jpg.jpg"></image>
+    <div class="box">
+        <h2>Weekday Schedule:</h2>
+        <table style="width:100%">
+            <tr>
+                <th style="text-align: left">Time:</th>
+                <th style="text-align: left">Monday</th>
+                <th style="text-align: left">Tuesday</th>
+                <th style="text-align: left">Wednesday</th>
+                <th style="text-align: left">Thursday</th>
+                <th style="text-align: left">Friday</th>
+            </tr>
+            <tr>
+                <td>7:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Get on the bus</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8:00</td>
+                <td>Get to school</td>
+                <td>Wake up</td>
+                <td>Wake up</td>
+                <td>Be at school</td>
+                <td>Wake up</td>
+            </tr>
+            <tr>
+                <td>School</td>
+                <td>School</td>
+                <td>School</td>
+                <td>School</td>
+                <td>School</td>
+                <td>School</td>
+            </tr>
+            <tr>
+                <td>2:40</td>
+                <td>Go biking</td>
+                <td>End school</td>
+                <td>Work (Piano, Viola, Math, HW, Chinese, ect...)</td>
+                <td>Viola lesson</td>
+                <td>End school</td>
+            </tr>
+            <tr>
+                <td>11:00</td>
+                <td>Go to bed</td>
+                <td>Go to bed</td>
+                <td>Go to bed (Maybe)</td>
+                <td>Go to bed (Maybe)</td>
+                <td>Go to bed (maybe)</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <form action="www.example.com/review.php">
+            <fieldset>
+                <legend>Type here</legend>
+                <label>Ok?
+                    <input type="text" name="name" id="name" size="10" maxlength="100">
+                </label>
+                <br />
+            </fieldset>
+        </form>
+    </div>
+        <form action="www.example.com/review.php">
+            <fieldset>
+              <legend>Select a thing:  </legend>
+              <p>
+                <label for="here"> Here: </label>
+                <select name="referrer" id="here">
+                  <option value="a thing">a thing</option>
+                  <option value="not a thing">not a thing</option>
+                  <option value="no">No</option>
+              </p>
+              
+            </fieldset>
+        </form>
+            <br>
+            <br>
+        <form action="www.example.com/review.php">
+            <fieldset>
+                <input type="radio" name="rating" id="Yes">Yes</input>
+            </fieldset>
+            <feildset>
+              <legend>
+                <label for="drag"> You can drag this box:</label>
+                <br>
+                <textarea rows="2" cols="10" id="drag">Drag me</textarea>
+              </legend>
+              <br>
+              <label>
+                <input type="checkbox" name="checkbox" checked="checked">Checkbox</input>
+             </label>
+            </fieldset>
+        </form>
+</body>
+</html>
